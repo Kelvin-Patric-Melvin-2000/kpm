@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #000000;
+  background: #00000000;
   overflow-y: auto;
 }
 
@@ -1117,4 +1117,19 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/* New Styles */
+
+.prof{
+  width: 90%;
+  height: auto;
+}
+
+.scroll_change{
+  visibility: visible;
+}
+
+.scroll_change ::after  {
+  visibility: visible;
 }
