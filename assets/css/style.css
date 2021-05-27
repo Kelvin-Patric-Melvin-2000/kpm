@@ -366,7 +366,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #d21818;
 }
 
 .about .content ul {
@@ -387,7 +387,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #d21818;
   line-height: 0;
 }
 
@@ -472,7 +472,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #000000;
+  background: #d21818;
   height: 10px;
 }
 
