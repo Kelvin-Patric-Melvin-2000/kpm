@@ -1,10 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.2.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -17,7 +10,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #000000;
+  background-color: #00000000;
   color: rgb(255, 255, 255);
   position: relative;
   background: transparent;
@@ -26,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("assets/img/profile-img.jpg") top right no-repeat;
+  background: #000 url("assets/img/profile-img.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -63,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 1s;
 }
 
 .back-to-top i {
@@ -245,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .mobile-nav-active #header {
@@ -324,11 +317,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .section-bg {
-  background: #000000;
+  background: #00000000;
 }
 
 .section-title {
@@ -1134,4 +1127,132 @@ New Styles
 
 .scroll_change ::after  {
   visibility: visible;
+}
+
+/* body {
+  background:#3CB371;
+} */
+
+/* Contact */
+
+#contact {
+	max-width: 970px;
+	margin: auto;
+}
+
+#contact p {
+	text-align: center;
+	font-family: helvetica, arial;
+	font-size: 16px;
+	font-weight: 200;
+  color: white;
+}
+
+
+#card{
+background: white;
+	margin: auto;
+	height: 400px;
+	width: 650px;
+	border: solid 3px black;
+	position: relative;
+	
+}
+
+#leftbox{
+	float: left;
+	width: 49%;
+	overflow: hidden;
+	
+}
+
+textarea {
+	margin: 20px;
+	border:none;
+	resize: none; 
+	font-size: 12px;
+font-family: helvetica, arial;
+}
+
+
+
+#rightbox {
+	float: right;
+	width: 50%;
+
+}
+
+
+#send input{
+	float: right;
+	display: inline-block;
+	margin: 20px;
+	height: 50px;
+	width: 70px;
+	background-color: #18d26e;
+	color: #d21818;
+	border-style: solid;
+	border-radius: 100px;
+	font-size: 16px;
+	font-family: open sans-serif;
+	letter-spacing: 2px;
+
+}
+
+.line {
+	margin-top: 10%;
+	height: 340px;
+	border-left: solid 2px black;
+}
+
+#input {
+	padding-top: 180px;
+}
+
+#input input {
+	margin: 20px 20px 40px 30px;
+	display: block;
+	width: 265px;
+	font-size: 16px;
+	border: none;
+	border-bottom: dotted 2px black;
+font-family: open sans;
+}
+ .bigcard{
+   color: #d21818;   
+ }
+
+ /* Download Button */
+ /* * {
+  margin: 0;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+} */
+
+svg {
+  margin-bottom: 80px;
+}
+
+.btn {
+  cursor: grab !important;
+  -webkit-tap-highlight-color: visible;
+}
+
+.text {
+  user-select: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.subCircle {
+  pointer-events: auto;
+}
+
+.strokeW {
+  animation: strokeW .6s forwards;
+  @keyframes strokeW {
+    to {
+      stroke-width: 1.16;
+    }
+  }
 }
