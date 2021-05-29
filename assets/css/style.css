@@ -402,7 +402,7 @@ section {
 
 .facts .count-box i {
   display: block;
-  font-size: 44px;
+  font-size: 52px;
   color: #18d26e;
   float: left;
   line-height: 0;
@@ -421,23 +421,23 @@ section {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   color: #d21818;
 }
 
-.facts .count-box a {
+/* /* .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
   color: #d21818;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
-}
+} */
 
-.facts .count-box a:hover {
+/* .facts .count-box a:hover {
   color: #f08f8f;
-}
+} */ 
 
 /*--------------------------------------------------------------
 # Skills
@@ -1222,37 +1222,3 @@ font-family: open sans;
    color: #d21818;   
  }
 
- /* Download Button */
- /* * {
-  margin: 0;
-  padding-bottom: 0px;
-  box-sizing: border-box;
-} */
-
-svg {
-  margin-bottom: 80px;
-}
-
-.btn {
-  cursor: grab !important;
-  -webkit-tap-highlight-color: visible;
-}
-
-.text {
-  user-select: none;
-  -webkit-font-smoothing: subpixel-antialiased;
-  text-rendering: optimizeLegibility;
-}
-
-.subCircle {
-  pointer-events: auto;
-}
-
-.strokeW {
-  animation: strokeW .6s forwards;
-  @keyframes strokeW {
-    to {
-      stroke-width: 1.16;
-    }
-  }
-}
