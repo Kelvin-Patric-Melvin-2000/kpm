@@ -1400,7 +1400,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* font-family: 'Oswald', sans-serif; */
 
-/* html { 
+html { 
   font-size: 62.5%; } 
 body {
 font-size: 1.5em;
@@ -1408,7 +1408,7 @@ line-height: 1.6;
 font-weight: 400;
 font-family: 'lux', sans-serif;
 overflow-y: scroll;
-} */
+}
 
 
 /* Typography
@@ -1442,7 +1442,7 @@ box-sizing: border-box;
 margin: 0;
 }
 
-/* section.intro {
+section.intro {
 font-family: oswald;
 position: relative;
 height: 100vh;
@@ -1453,9 +1453,9 @@ background: -webkit-gradient(radial, center center, 0px, center center, 100%, co
 background: -o-radial-gradient(center, ellipse cover, #f6f6f6 1%,#d3d3d3 100%);
 background: -ms-radial-gradient(center, ellipse cover, #f6f6f6 1%,#d3d3d3 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#d3d3d3',GradientType=1 );
-overflow: hidden;
+overflow: visible;
 z-index: 1;
-} */
+}
 
 
 
@@ -1487,7 +1487,7 @@ position: relative;
 display: flex;
 align-items: center;
 height: 100%;
-box-shadow: inset 0px 0px 64px 0px rgb(0, 0, 0);
+box-shadow: inset 0px 0px 64px 0px rgba(50,50,50,0.75);
 }
 
 .hex-bg-big-text {
@@ -1524,7 +1524,7 @@ font-size: 50px;
 
 .code-display {
 position: relative;
-color: #18d26e;
+color: #f6f6f6;
 width: 600px;
 height: 260px;
 }
@@ -1535,11 +1535,11 @@ position: absolute;
 top: -70px;
 left: 0;
 font-size: 3.0rem;
-color: #18d26e;
+color: rgb(255, 255, 255);
 }
 
 .code-display h1 {
-color: #333;
+color: rgb(255, 255, 255);
 }
 
 .code-description {
@@ -1555,7 +1555,7 @@ display: none;
 .code-description > div {
 padding: 0px 40px;
 font-size: 26px;
-border-left: 2px solid #000;
+border-left: 2px solid #DDDDDD;
 }
 
 .desc-active {
@@ -1874,5 +1874,3 @@ margin: auto;
 content: "";
 transform: rotate(60deg);
 }
-
-/* End of trial skills section 1 */
