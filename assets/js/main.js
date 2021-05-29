@@ -255,7 +255,7 @@
 
 })()
 
-// Trial Skills Section
+// Trial Skills Section 1
 
 $(document).ready(function () {
 	function hex_initial_animation() {
@@ -264,7 +264,7 @@ $(document).ready(function () {
 		$(".hoverblock").velocity("fadeOut", { delay: 3000, duration: 0 });
 		}
 	hex_initial_animation();
-
+  
 var hoverdetect = setInterval(function(){ hovernotify() }, 3000);
 function hovernotify() {
     $(".hover-notify").velocity("callout.tada");
@@ -301,3 +301,9 @@ $(".hover-notify").velocity('stop', true).velocity("fadeOut");
 				 $('.hexactive').velocity('stop', true).velocity('reverse').removeClass('hexactive');
 			});
 });
+
+// End of trial skills section 1
+
+
+// Name animation trial
+
