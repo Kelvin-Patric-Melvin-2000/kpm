@@ -854,7 +854,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -885,7 +885,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .contact .info .email p {
